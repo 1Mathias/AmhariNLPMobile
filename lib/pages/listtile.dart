@@ -15,12 +15,6 @@ class ListTileExample extends StatelessWidget {
         leading: Icon(Icons.face),
         title: Text('Tile 1: with leading/trailing widgets'),
         trailing: Icon(Icons.tag_faces),
-        onTap: (){
-          Navigator.push(context, 
-          MaterialPageRoute(
-            builder: (context) => DetailScreen(todo: todos[index]),
-          ),
-        },
       ),
       const Divider(),
       const ListTile(
